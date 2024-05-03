@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-size: 16px;
+}
+
+.splide__track {
+    height: 100%;
+}
+
+.gm-style iframe + div { border:none!important; }
+
+.splide__arrow:disabled{
+    display: none;
+}
