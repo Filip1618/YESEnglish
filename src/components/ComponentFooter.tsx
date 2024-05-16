@@ -12,17 +12,17 @@ const ComponentFooter = () => {
 					</h2>
 					<div className="flex items-center justify-start gap-2">
 						<FaPhoneAlt className="aspect-square h-full w-auto p-1" fill="#e7e7e7" />
-						<a href="tel:123123123" className="font-poppins text-base font-normal text-platinum hover:underline decoration-2">
-							123 123 123
+						<a href="tel:604076433" className="font-poppins text-base font-normal text-platinum hover:underline decoration-2">
+						604 076 433
 						</a>
 					</div>
 					<div className="flex items-center justify-start gap-2">
 						<IoMdMail className="aspect-square h-full w-auto p-1" fill="#e7e7e7" />
 						<a
-							href="mailto:example@examle.com"
+							href="mailto:biuro@yesokay.eu"
 							className="font-poppins text-base font-normal text-platinum hover:underline decoration-2"
 						>
-							example@example.com
+							biuro@yesokay.eu
 						</a>
 					</div>
 				</div>
@@ -77,7 +77,7 @@ const ComponentFooter = () => {
 								smooth={true}
 								duration={500}
 							>
-								Jak uczymy
+								Lektorzy
 							</Link>
 						</li>
 						<li className="list-disc text-platinum">
@@ -94,12 +94,34 @@ const ComponentFooter = () => {
 						<li className="list-disc text-platinum">
 							<Link
 								className="cursor-pointer font-poppins text-base font-normal text-platinum"
-								to="banner"
+								to="hoursOfCourses"
 								offset={-100}
 								smooth={true}
 								duration={500}
 							>
-								Godziny kursu
+								Godziny kursów
+							</Link>
+						</li>
+						<li className="list-disc text-platinum">
+							<Link
+								className="cursor-pointer font-poppins text-base font-normal text-platinum"
+								to="gallery"
+								offset={-100}
+								smooth={true}
+								duration={500}
+							>
+								Nasza galeria
+							</Link>
+						</li>
+						<li className="list-disc text-platinum">
+							<Link
+								className="cursor-pointer font-poppins text-base font-normal text-platinum"
+								to="gallery"
+								offset={-100}
+								smooth={true}
+								duration={500}
+							>
+								Dlaczego YES
 							</Link>
 						</li>
 						<li className="list-disc text-platinum">

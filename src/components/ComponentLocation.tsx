@@ -19,7 +19,7 @@ const ComponentContact: React.FC = () => {
 	const mapContainerStyle: React.CSSProperties = {
 		width: "100%",
 		height: "100%",
-	}; 
+	};
 	return (
 		<section className="flex p-16 sm:p-8 h-[700px] sm:h-fit w-full bg-platinum">
 			<Element name="location" className="container flex flex-row sm:flex-col gap-8">
@@ -29,14 +29,22 @@ const ComponentContact: React.FC = () => {
 					</h2>
 					<div className="flex items-center justify-start gap-2">
 						<FaPhoneAlt className="aspect-square h-full w-auto p-1" fill="#ba181b" />
-						<a href="tel:123123123" about="_blank" className="text-base font-normal font-poppins text-night hover:underline decoration-2">
-							123 123 123
+						<a
+							href="tel:604076433"
+							about="_blank"
+							className="text-base font-normal font-poppins text-night hover:underline decoration-2"
+						>
+							604 076 433
 						</a>
 					</div>
 					<div className="flex items-center justify-start gap-2">
 						<IoMdMail className="aspect-square h-full w-auto p-1" fill="#ba181b" />
-						<a href="mailto:example@example.com" about="_blank" className="text-base font-normal font-poppins text-night hover:underline decoration-2">
-							example@example.com
+						<a
+							href="mailto:biuro@yesokay.eu"
+							about="_blank"
+							className="text-base font-normal font-poppins text-night hover:underline decoration-2"
+						>
+							biuro@yesokay.eu
 						</a>
 					</div>
 					<div className="flex items-start justify-start gap-2">
@@ -46,7 +54,7 @@ const ComponentContact: React.FC = () => {
 							about="_blank"
 							className="text-base font-normal font-poppins text-night hover:underline decoration-2"
 						>
-							ul. Example 123 <br /> Pruszków, 05-800
+							ul. Robotnicza 16a <br /> 05-800 Pruszków
 							<br />
 						</a>
 					</div>

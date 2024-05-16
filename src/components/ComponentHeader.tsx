@@ -15,8 +15,7 @@ const ComponentHeader: React.FC = () => {
 					</p>
 				</div>
 				<p className="h-fit w-2/5 text-base font-light font-poppins text-platinum sm:w-full">
-					Lorem ipsum dolor sit amet consectetur. Habitasse blandit nulla tincidunt in interdum. Facilisis ullamcorper volutpat
-					volutpat nunc et. Facilisi eget ullamcorper magnis eget molestie mattis quis ultrices. Vivamus dolor nibh fringilla nec at.
+					„With languages, you are at home anywhere” 
 				</p>
 				<Link
 					className="font-semibold cursor-pointer text-platinum sm:justify-self-end sm:absolute font-poppins bottom-0 h-fit w-fit justify-self-end rounded-sm bg-cornell_red px-4 py-2 hover:bg-cornell_red-400 sm:self-center  sm:px-8 sm:py-4"
