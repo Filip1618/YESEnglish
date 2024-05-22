@@ -11,7 +11,7 @@ const contentOverview: TContentCourses[] = [
 		headerText: "Kursy Standardowe",
 		mainText: `Są to kursy skierowane do dzieci i młodzieży w wieku szkolnym, na których Kursanci nabywają nowe umiejętności językowe w sposób systematyczny, a zagadnienia i tematyka zajęć dostosowane są do rozwoju intelektualnego i emocjonalnego uczniów. Zajęcia odbywają się 2 razy w tygodniu i trwają 60 min (rocznie 66 lekcji).`,
 		list: [
-			"utrwali i poszerzy słownictwo w obszarze objętym wymaganiami egzaminacyjnymi",
+			"utrwali i poszerzy słownictwo",
 			"przećwiczy wymagane zagadnienia gramatyczne oraz funkcje językowe",
 			"zapozna się ze standardami egzaminacyjnymi, typowymi zadaniami",
 			"otrzyma wskazówki pomocne w rozwiązywaniu różnych typów zadań",

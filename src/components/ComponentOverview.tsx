@@ -21,7 +21,7 @@ const ComponentOverview: React.FC = () => {
 
                 <div className="col-span-1 col-start-1 row-span-1 row-start-2 ">
                     <img
-                        className="aspect-golden-horizontal size-full object-cover shadow-base brightness-75"
+                        className="aspect-golden-horizontal w-full object-cover shadow-base brightness-75"
                         src={contentOverview[1].image}
                         alt="TODO"
                     />
