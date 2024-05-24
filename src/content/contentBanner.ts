@@ -1,7 +1,7 @@
-import stockEducation from "@assets/stockEducation.webp";
+import stockKids from "@assets/stockKids.webp";
 
 const contentBanner: TContentBanner = {
-    image: stockEducation,
+    image: stockKids,
     headerText: "Godziny kursu",
     mainText: `Zajęcia odbywają się od godziny 10 do późnego wieczoru i dostosowane są do potrzeb
     Kursantów.

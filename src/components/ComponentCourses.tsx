@@ -41,7 +41,7 @@ const ComponentCourses: React.FC = () => {
 		}
 		return (
 			<SplideSlide key={index} className="flex aspect-golden-vertical flex-col items-start justify-start bg-platinum p-4 shadow-base">
-				<img src={course.image} alt="TODO" className="aspect-golden-vertical w-1/3 self-center" title={course.imageSource}/>
+				<img src={course.image} alt={course.imageAlt} className="aspect-golden-vertical w-1/3 self-center" title={course.imageSource}/>
 				<h3 className="font-libre-baskerville text-h5 font-semibold text-night sm:text-h4">{course.headerText}</h3>
 				<p className="font-poppins text-base font-normal text-night">{course.mainText}</p>
 				{listItems ? <ul className="ml-4">{listItems}</ul> : ""}

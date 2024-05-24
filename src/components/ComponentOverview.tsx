@@ -9,7 +9,7 @@ const ComponentOverview: React.FC = () => {
                     <img
                         className="size-full object-cover shadow-base brightness-75 sm:aspect-golden-horizontal sm:w-full"
                         src={contentOverview[0].image}
-                        alt="TODO"
+                        alt={contentOverview[0].imageAlt}
                     />
                 </div>
                 <Element name="overview-1" className="col-span-1 col-start-1 row-span-1 row-start-1 flex flex-col gap-4 sm:gap-1 sm:mb-8">
@@ -23,7 +23,7 @@ const ComponentOverview: React.FC = () => {
                     <img
                         className="aspect-golden-horizontal w-full object-cover shadow-base brightness-75"
                         src={contentOverview[1].image}
-                        alt="TODO"
+                        alt={contentOverview[1].imageAlt}
                     />
                 </div>
                 <Element name="overview-2" className="col-span-1 col-start-2 row-span-1 row-start-2 flex flex-col gap-4 sm:gap-1 sm:mb-8">
@@ -37,7 +37,7 @@ const ComponentOverview: React.FC = () => {
                     <img
                         className="aspect-golden-horizontal size-full h-auto object-cover shadow-base brightness-75"
                         src={contentOverview[2].image}
-                        alt="TODO"
+                        alt={contentOverview[2].imageAlt}
                     />
                 </div>
                 <Element name="overview-3" className="col-span-1 col-start-1 row-span-1 row-start-3 flex flex-col gap-4 sm:gap-1 sm:mb-8">
@@ -48,7 +48,7 @@ const ComponentOverview: React.FC = () => {
                 </Element>
             </div>
             <div className="z-10 absolute w-[900px] aspect-golden-horizontal top-[700px] left-0 -translate-y-1/2 rotate-12 -translate-x-1/3 sm:hidden">
-                <img src={unitedKingdomFlag} alt=""  className="size-full"/>
+                <img src={unitedKingdomFlag} alt="United Kingdom Flag Image"  className="size-full"/>
             </div>
         </section>
     );

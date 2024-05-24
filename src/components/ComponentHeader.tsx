@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const ComponentHeader: React.FC = () => {
 	return (
 		<header className="relative h-[700px] w-full p-16 sm:p-8 sm:h-[90vh]">
-			<img className="absolute left-0 top-0 size-full object-cover brightness-50" src={headerImage} alt="Header Image" />
+			<img className="absolute left-0 top-0 size-full object-cover brightness-50" src={headerImage} alt="Header Stock Image" />
 			<div className="container relative z-10 flex h-full flex-col gap-6 sm:justify-start">
 				<div className="flex h-fit w-full flex-col items-start justify-start">
 					<p className="leading-[1em] font-libre-baskerville w-4/5 text-left text-[5em] font-bold text-platinum sm:text-[3em]">YOUR</p>

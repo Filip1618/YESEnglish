@@ -1,6 +1,6 @@
 import infoContent from "@content/infoContent";
 import redLine from "@assets/redLine.svg";
-import image from "@assets/stockEducation.webp";
+import classroom1 from "@assets/classroom1.webp";
 import certificate from "@assets/certificate.webp"
 import { Element } from "react-scroll";
 const ComponentInfo = () => {
@@ -27,19 +27,19 @@ const ComponentInfo = () => {
 					<img src={redLine} alt="Red Line" className="size-full absolute md:absolute mt-4" />
 					<div className="relative top-0 left-0 flex size-full flex-col justify-evenly items-start gap-8 py-8 md:py-0">
 						<img
-							className="md:!w-1/3 object-cover xl:w-1/3 min-w-[250px] aspect-golden-vertical shadow-image-shadow w-1/3"
-							src={certificate}
-							alt=""
+							className="md:!w-2/3 object-cover xl:w-3/4 min-w-[250px] aspect-golden-horizontal shadow-image-shadow w-1/2"
+							src={classroom1}
+							alt="Classroom Image"
 						/>
 						<img
 							className="md:!w-2/3 object-cover xl:w-3/4 min-w-[250px] aspect-golden-horizontal shadow-image-shadow w-1/2 place-self-end"
-							src={image}
-							alt=""
+							src={classroom1}
+							alt="Classroom Image"
 						/>
 						<img
-							className="md:!w-2/3 object-cover xl:w-3/4 min-w-[250px] aspect-golden-horizontal shadow-image-shadow w-1/2"
-							src={image}
-							alt=""
+							className="md:!w-1/3 object-cover xl:w-1/3 min-w-[250px] aspect-golden-vertical shadow-image-shadow w-1/3"
+							src={certificate}
+							alt="Certificate Image"
 						/>
 					</div>
 				</Element>

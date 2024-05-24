@@ -5,11 +5,13 @@ import stockNeverStopLearing from "@assets/stockNeverStopLearning.webp";
 const contentOverview: TContentOverview[] = [
 	{
 		image: stockDictionary,
+		imageAlt: "Stock Image",
 		headerText: "O nas",
 		mainText: `YES (Your English School) to kameralna szkoła języka angielskiego dla dzieci i młodzieży. Szkoła ma siedzibę w Pruszkowie na Gąsinie, gdzie odbywają się zajęcia. Prowadzimy kursy standardowe i kursy przygotowujące do egzaminów (ósmoklasisty, matury i certyfikatów międzynarodowych - FCE i FCE for Schools). Oferujemy zajęcia w małych grupach od 4 do 6 osób, na których każdy Kursant traktowany jest indywidualnie. W naszej ofercie mamy również zajęcia indywidualne, w parach oraz konwersacje.`,
 	},
 	{
 		image: stockEducation,
+		imageAlt: "Stock Image",
 		headerText: "Cel",
 		mainText: `Naszym celem jest rozwijanie kompetencji językowych u dzieci i młodzieży co realizujemy
         poprzez tworzenie i dostosowywanie programów do indywidualnych potrzeb Kursanta oraz
@@ -21,6 +23,7 @@ const contentOverview: TContentOverview[] = [
 	},
 	{
 		image: stockNeverStopLearing,
+		imageAlt: "Stock Image",
 		headerText: "Lektorzy",
 		mainText: `YES stawia na entuzjastycznych, wykwalifikowanych i doświadczonych lektorów, absolwentów
         nauczycielskich kolegiów językowych, filologii, lingwistyki, dla których nauczanie i praca z
