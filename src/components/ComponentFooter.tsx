@@ -37,7 +37,7 @@ const ComponentFooter = () => {
 							about="_blank"
 							className="font-poppins text-base font-normal text-platinum hover:underline decoration-2"
 						>
-							ul. Example 123 <br /> Pruszków, 05-800
+							ul. Robotnicza 16a <br /> Pruszków, 05-800
 							<br />
 						</a>
 					</div>
