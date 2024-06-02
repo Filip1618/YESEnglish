@@ -1,6 +1,7 @@
 import infoContent from "@content/infoContent";
 import redLine from "@assets/redLine.svg";
 import classroom1 from "@assets/classroom1.webp";
+import classroom2 from "@assets/classroom2.webp";
 import certificate from "@assets/certificate.webp"
 import { Element } from "react-scroll";
 const ComponentInfo = () => {
@@ -33,7 +34,7 @@ const ComponentInfo = () => {
 						/>
 						<img
 							className="md:!w-2/3 object-cover xl:w-3/4 min-w-[250px] aspect-golden-horizontal shadow-image-shadow w-1/2 place-self-end"
-							src={classroom1}
+							src={classroom2}
 							alt="Classroom Image"
 						/>
 						<img
