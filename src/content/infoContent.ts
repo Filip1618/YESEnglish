@@ -4,7 +4,7 @@ const infoContent: TContentInfo[] = [
         mainText: `Systematycznie odnotowujemy duże sukcesy naszych Kursantów,
 		którzy osiągają bardzo wysokie wyniki w nauce oraz w zdawanych egzaminach, a także
 		zajmują najlepsze miejsca w konkursach międzyszkolnych. Zdecydowanie jest to wynik
-		dobrze przemyślanej strategii pracy w małych grupach (max. 6 osób), łączących
+		dobrze przemyślanej strategii, pracy w małych grupach (max. 6 osób), łączących
 		rówieśników o podobnym stopniu zaawansowania, podobnych zainteresowaniach i
 		możliwościach, a także indywidualnej pracy z uczniem. Zajęcia są dynamiczne, a każdy
 		Kursant wielokrotnie zabiera głos. W tak niedużej grupie jesteśmy w stanie bardzo
@@ -19,7 +19,7 @@ const infoContent: TContentInfo[] = [
         mainText: `Nasi Kursanci mają okazję uczyć się języków w ciepłej,
 		rodzinnej atmosferze, dzięki której przyswajanie wiedzy staje się przyjemniejsze i
 		łatwiejsze. Lektorzy w YES zarażają pasją do języka angielskiego, a nasi Kursanci często
-		wybierają angielski jako przedmiot wiodący w gimnazjum, liceum, a także studiują
+		wybierają angielski jako przedmiot wiodący w liceum, a także studiują
 		anglistykę.`,
     },
     {
